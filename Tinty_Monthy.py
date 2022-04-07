@@ -6,7 +6,7 @@ Get on your IDE and enjoy the fun! 😊"""
 
 class Months:
 
-    def get_month(number):
+    def get_month(self, number):
 
         months = {'1':'January',
 
@@ -34,7 +34,7 @@ class Months:
 
                       }
 
-        for key in months:
+        for key in months():
 
             if key == number:
 
